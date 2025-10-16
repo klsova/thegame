@@ -1,0 +1,16 @@
+[package]
+name = "thegame"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit = "0.30" 
+wgpu = "27.0.1"
+glam = "0.30.8"
+hecs = "0.10.5"
+rapier3d = "0.30.0"
+obj = "0.10.2" 
+egui = "0.33.0" 
+image = "0.25.8"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
